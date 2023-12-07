@@ -1,0 +1,43 @@
+.con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* Pridané štýly pre rámček na jednotlivé kartičky */
+.card_produkty {
+    width: calc(33.3333% - 20px); /* 20px je zrážka medzi kartami */
+    margin: 10px; /* Medzera medzi kartičkami */
+    box-sizing: border-box;
+}
+
+/* Pridané štýly pre štýlovanie input a button v card */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img-top {
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+     border-radius: 8px 8px 0 0; /* Zakrivené rohy len hore */
+ }
+
+/* Pridané štýly pre štýlovanie tlačidiel v card */
+.card-link-green {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-title,
+.card-subtitle,
+.card-text {
+    text-align: center; /* Zarovnanie textu na stred */
+}

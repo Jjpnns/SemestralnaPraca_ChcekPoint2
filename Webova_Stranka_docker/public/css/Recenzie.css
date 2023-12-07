@@ -1,0 +1,91 @@
+/* Pridané štýly pre formulár na pridávanie recenzie */
+/* Pridané štýly pre formulár na pridávanie recenzie */
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Nový riadok pre vertikálne usporiadanie */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Zväčšil som medzeru na 20px */
+}
+
+textarea {
+    resize: vertical; /* Umožní vertikálny resize textového poľa */
+    min-height: 100px; /* Minimálna výška pre lepšiu viditeľnosť */
+}
+
+.odoslat {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+
+.odoslat:hover {
+    background-color: #45a049;
+}
+
+/* Pridané štýly pre recenzie */
+.card {
+    margin: 20px;
+}
+
+.card-header {
+    background-color:#60ce6b;
+    color: white;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+}
+
+blockquote {
+    font-size: 18px;
+}
+
+/* Pridané štýly pre tlačidlo "Zmazať" a "Editovať" v recenziách */
+.card-body a,
+.card-body button {
+    margin-right: 10px;
+    color:#60ce6b;
+    cursor: pointer;
+}
+
+/* Pridané štýly pre modálne okno */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #60ce6b;
+    color: white;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+#editRecenzieT {
+    width: 100%;
+}
+
+/* Nové štýly pre hodnotenie */
+.hodnotenie-container {
+    margin-top: 20px; /* pridáva medzeru nad hodnotením */
+}
+
+/* Skrytie vertikálnej lišty v select2 pre lepší vizuálny vzhľad */
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ced4da !important;
+}
