@@ -67,6 +67,7 @@ use App\Core\IAuthenticator;
                         <li><a class="dropdown-item" href="?c=produkty&a=rastliny">Rastliny</a></li>
                         <li><a class="dropdown-item" href="?c=produkty&a=bylinky">Byliny</a></li>
                         <li><a class="dropdown-item" href="?c=produkty&a=doplnky">Doplnky</a></li>
+
                     </ul>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="?c=home&a=contact">Kontakt</a>
