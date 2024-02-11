@@ -29,7 +29,7 @@ class AuthController extends AControllerBase
      */
     public function login(): Response
     {
-       // return $this->redirect('?c=home&a=index');
+
         $formData = $this->app->getRequest()->getPost();
         $logged = null;
         if (isset($formData['submit'])) {
