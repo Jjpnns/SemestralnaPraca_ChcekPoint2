@@ -94,12 +94,12 @@ $suma = 0;
                             <option value="karta">Platba kartou</option>
                             <option value="dobierka">Dobierka</option>
                         </select>
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Zavrieť</button>
                     <button class="btn btn-success" type="submit" name="submit">Potvrď objednávku</button>
                 </div>
-                </form>
             </div>
         </div>
     </div>
