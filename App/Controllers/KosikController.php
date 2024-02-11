@@ -5,10 +5,8 @@ namespace App\Controllers;
 use App\Core\AControllerBase;
 use App\Core\Responses\Response;
 use App\Models\objednavky;
-use App\Models\poukaz;
 use App\Models\produkt;
 use App\Models\produkty_v_objd;
-use App\Models\recenzie;
 use App\Models\zakaznik;
 
 class KosikController extends AControllerBase
